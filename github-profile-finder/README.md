@@ -1,16 +1,37 @@
-# React + Vite
+# GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ile geliştirilmiş basit ve etkili bir GitHub kullanıcı profili arama uygulaması.  
 
-Currently, two official plugins are available:
+Bu proje, kullanıcıların GitHub kullanıcı isimlerini girerek profillerini görüntülemelerini sağlar. Profil resmi, public repo sayısı, takipçi sayısı, hesap oluşturma tarihi ve GitHub profil linki ekranda gösterilir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Kullanılan Teknolojiler (Technologies Used)
 
-## React Compiler
+- **React (React.js)** – Component tabanlı frontend geliştirme
+- **Hooks (useState, useEffect)** – State ve lifecycle yönetimi
+- **Async/Await & Fetch API** – API çağrısı ve veri çekme
+- **Error Handling (try/catch)** – Hata yönetimi
+- **Conditional Rendering** – Loading, error ve veri görüntüleme durumları
+- **CSS Modules / App.css** – Basit ve temiz stil
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Nasıl Çalışır (How It Works)
 
-## Expanding the ESLint configuration
+1. Kullanıcı arama alanına bir GitHub kullanıcı adı girer.
+2. "Search" butonuna basıldığında `fetchGitUsers` fonksiyonu çağrılır.
+3. API’den gelen veri `userData` state’ine kaydedilir.
+4. Kullanıcı profili **Profile** componenti aracılığıyla render edilir.
+5. Loading ve error durumları kullanıcıya görsel olarak iletilir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Öne Çıkan Özellikler (Key Features)
+
+- Profil resmi (avatar) gösterimi
+- Public repos, followers ve account creation date
+- GitHub profiline hızlı erişim linki
+- Loading ve error state yönetimi
+- Clean code ve profesyonel component yapısı
+
+## Demo
+
+Kullanıcı arama sonrası GitHub profiline yönlendirme:  
+![Demo GIF / Video](link_to_your_video_or_gif)
+
+---
