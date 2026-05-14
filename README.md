@@ -45,6 +45,6 @@ npm install
 npm run dev
 ```
 
-## 📬 Contact
+## 📬 Contact.
 
 For any feedback or questions, feel free to reach out.
