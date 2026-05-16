@@ -5,7 +5,7 @@ A React application that allows users to search for GitHub profiles and view det
 ## 🚀 Features
 
 * 🔎 Search GitHub users by username
-* 👤 Display user profile information
+* 👤 Display user profile information.
 * 📊 Show follower count, repositories, and more
 * 🖼️ Profile image preview
 * ⚡ Clean and responsive design
