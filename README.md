@@ -1,6 +1,6 @@
 # 👤 GitHub Profile Finder
 
-A React application that allows users to search for GitHub profiles and view detailed user information in real-time..
+A React application that allows users to search for GitHub profiles and view detailed user information in real-time...
 
 ## 🚀 Features
 
